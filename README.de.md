@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Euro-CLI-KI</h1>
-  <p><strong>Windows-CLI fuer lokale referenzgestuetzte Bildgenerierung und iterative Bildbearbeitung mit OpenAI.</strong></p>
-  <p>Installer-orientierte Distribution fuer Endanwender. Kein Source-Checkout erforderlich.</p>
+  <p><strong>Windows-CLI für lokale referenzgestützte Bildgenerierung und iterative Bildbearbeitung mit OpenAI.</strong></p>
+  <p>Installer-orientierte Distribution für Endanwender. Kein Source-Checkout erforderlich.</p>
   <p><a href="./README.md">English Version</a></p>
 
   <p>
@@ -27,11 +27,11 @@
 
 ---
 
-## Ueberblick
+## Überblick
 
-Euro-CLI-KI ist ein lokales Windows-Kommandozeilenwerkzeug fuer referenzbasierte Bild-Workflows. Es ist fuer Faelle gedacht, in denen neue Bilder visuell zu bestehenden Assets passen muessen, statt ohne Kontext generiert zu werden.
+Euro-CLI-KI ist ein lokales Windows-Kommandozeilenwerkzeug für referenzbasierte Bild-Workflows. Es ist für Fälle gedacht, in denen neue Bilder visuell zu bestehenden Assets passen müssen, statt ohne Kontext generiert zu werden.
 
-Dieses Repository ist der oeffentliche Distributionskanal fuer den Windows-Installer, Release-Notizen und Lizenzinformationen.
+Dieses Repository ist der öffentliche Distributionskanal für den Windows-Installer, Release-Notizen und Lizenzinformationen.
 
 ## Download
 
@@ -42,14 +42,14 @@ Den aktuellen Windows-Installer findest du auf der [Releases](https://github.com
 ## Installation
 
 1. `euro-cli-ki-setup.exe` herunterladen.
-2. Den Installer ausfuehren.
-3. Im Startmenue den Ordner `Euro-CLI-KI` oeffnen.
-4. `Euro-CLI-KI` starten, um die CLI-Shell zu oeffnen.
+2. Den Installer ausführen.
+3. Im Startmenü den Ordner `Euro-CLI-KI` öffnen.
+4. `Euro-CLI-KI` starten, um die CLI-Shell zu öffnen.
 
 Der Installer:
 
 - installiert die CLI nach `%LOCALAPPDATA%\Programs\EuroCliKi`
-- erstellt den Startmenue-Ordner `Euro-CLI-KI`
+- erstellt den Startmenü-Ordner `Euro-CLI-KI`
 - legt `Euro-CLI-KI` und `Uninstall Euro-CLI-KI` an
 - platziert eine Konfigurationsvorlage unter `%APPDATA%\EuroCliKi\.env.example`
 - zeigt auf der Abschlussseite ein kopierbares VS-Code-`settings.json`-Snippet an
@@ -71,7 +71,7 @@ OPENAI_IMAGE_MODEL=gpt-image-1
 
 Voraussetzungen:
 
-- gueltiger OpenAI API Key
+- gültiger OpenAI API Key
 - aktive API-Abrechnung auf der OpenAI Platform
 
 OpenAI-Links:
@@ -81,7 +81,7 @@ OpenAI-Links:
 
 ## Befehle
 
-Oeffne den Startmenue-Eintrag `Euro-CLI-KI` oder starte die EXE direkt:
+Öffne den Startmenü-Eintrag `Euro-CLI-KI` oder starte die EXE direkt:
 
 ```powershell
 "$env:LOCALAPPDATA\Programs\EuroCliKi\eurocliki.exe" doctor
@@ -89,7 +89,7 @@ Oeffne den Startmenue-Eintrag `Euro-CLI-KI` oder starte die EXE direkt:
 
 Wichtige Befehle:
 
-- `doctor` prueft Konfiguration, Verzeichnisse und Umgebung
+- `doctor` prüft Konfiguration, Verzeichnisse und Umgebung
 - `generate` erzeugt ein einzelnes Bild aus Prompt und Referenzen
 - `session` startet einen iterativen Bildbearbeitungs-Workflow
 
@@ -102,9 +102,9 @@ Beispiel:
   --output=".\output\iron-mine-v1.png"
 ```
 
-## Nutzung Mit VS Code
+## Nutzung mit VS Code
 
-Die VS-Code-Extension wird separat veroeffentlicht:
+Die VS-Code-Extension wird separat veröffentlicht:
 
 - <https://github.com/EuroCent82/euro-cli-ki-vscode>
 
@@ -118,7 +118,7 @@ Nach der Installation der CLI trage den EXE-Pfad in die VS-Code-Einstellungen ei
 
 ## Release-Dateien
 
-Dieses oeffentliche Repository soll bewusst schlank bleiben. Die oeffentliche Release-Flaeche besteht aus:
+Dieses öffentliche Repository soll bewusst schlank bleiben. Die öffentliche Release-Fläche besteht aus:
 
 - `README.md`
 - `README.de.md`
@@ -133,4 +133,4 @@ Die Release-Historie steht in [CHANGELOG.md](./CHANGELOG.md).
 
 ## Lizenz
 
-Veroeffentlicht unter der [MIT Lizenz](./LICENSE).
+Veröffentlicht unter der [MIT Lizenz](./LICENSE).
