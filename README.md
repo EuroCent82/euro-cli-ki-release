@@ -2,6 +2,11 @@
   <h1>Euro-CLI-KI</h1>
   <p><strong>Windows CLI for local reference-based image generation and iterative image editing with OpenAI.</strong></p>
   <p>Installer-first distribution for end users. No source checkout required.</p>
+  <p><a href="./README.de.md">German Version</a></p>
+
+  <p>
+    <img src="./euro-cli-ki-logo.png" alt="Euro-CLI-KI Logo" width="720">
+  </p>
 
   <p>
     <a href="https://github.com/EuroCent82/euro-cli-ki-release/releases/latest"><img src="https://img.shields.io/badge/download-windows%20installer-2f6fed?logo=windows&logoColor=white" alt="Download Windows Installer"></a>
@@ -69,6 +74,11 @@ Requirements:
 - valid OpenAI API key
 - active API billing on the OpenAI Platform
 
+OpenAI links:
+
+- [Create or manage API keys](https://platform.openai.com/api-keys)
+- [OpenAI Image API guide](https://developers.openai.com/api/docs/guides/image-generation)
+
 ## Commands
 
 Open the Start Menu entry `Euro-CLI-KI` or run the executable directly:
@@ -111,8 +121,10 @@ After installing the CLI, add the executable path to your VS Code settings:
 This public repository is intended to stay minimal. The release surface consists of:
 
 - `README.md`
+- `README.de.md`
 - `CHANGELOG.md`
 - `LICENSE`
+- `euro-cli-ki-logo.png`
 - `euro-cli-ki-setup.exe` as a GitHub Release asset
 
 ## Changelog
